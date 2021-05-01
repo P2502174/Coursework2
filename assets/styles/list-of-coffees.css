@@ -1,0 +1,39 @@
+/* Styling for coffies from chosen category */
+
+body {
+  min-height: 100vh;
+  position: relative;
+  max-width: 100rem;
+}
+
+.coffee-wrapper {
+  position: relative;
+}
+
+.coffee-wrapper img {
+  width: 100vw;
+}
+
+.coffee-wrapper div {
+  width: 30%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.coffee-wrapper div span {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 100rem) {
+  .coffee-wrapper img {
+    width: 100rem;
+  }
+}

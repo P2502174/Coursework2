@@ -1,0 +1,55 @@
+/* Styling for categories */
+
+.categories-wrapper {
+  height: 100vh;
+  background: url('../images/background/coffee-beans-background.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+.categories-wrapper img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem;
+}
+
+.categories-wrapper ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories-wrapper li button {
+  margin: 3rem;
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 100rem) {
+  .categories-wrapper {
+    width: 100rem;
+    height: max-content;
+    background: none;
+  }
+
+  .categories-wrapper ul {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .categories-wrapper img {
+    display: none;
+    margin: 0;
+    position: inherit;
+  }
+}

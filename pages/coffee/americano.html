@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Americano</title>
+    <link rel="stylesheet" href="../../assets/styles/global-styles.css" />
+    <link rel="stylesheet" href="../../assets/styles/categories.css" />
+    <link rel="stylesheet" href="../../assets/styles/coffee.css" />
+  </head>
+  <body>
+    <!-- Header with logo and cateogies -->
+    <header>
+      <a href="../../index.html"
+        ><img src="../../assets/svg/coffee.svg" alt="logo"
+      /></a>
+      <button id="menu">
+        <img src="../../assets/svg/menu.svg" alt="menu" />
+      </button>
+    </header>
+    <!-- Categories which are visible in desktop screen and on mobile screen categories are hidden -->
+    <div class="categories-wrapper" id="categories">
+      <button id="close">
+        <img src="../../assets/svg/close.svg" alt="x" />
+      </button>
+      <ul>
+        <li>
+          <a href="../coffee-categories/classic-coffee.html"
+            ><button>CLASSICS</button></a
+          >
+        </li>
+        <li>
+          <a href="../coffee-categories/autumn-coffee.html"
+            ><button>AUTUMN</button></a
+          >
+        </li>
+        <li>
+          <a href="../coffee-categories/christmas-coffee.html"
+            ><button>CHRISTMAS</button></a
+          >
+        </li>
+        <li>
+          <a href="../coffee-categories/iced-coffee.html"
+            ><button>ICED</button></a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="wrapper">
+      <div class="title-wrapper americano">
+        <!-- Name of chosen coffee -->
+        <h1>Americano</h1>
+      </div>
+      <!-- Image of coffee -->
+      <div class="image-wrapper">
+        <img src="../../assets/images/coffee/americano.jpg" alt="americano" />
+        <div class="info">
+          <!-- General info about coffee -->
+          <div>
+            <span>Servings</span>
+            <span>1</span>
+          </div>
+          <div class="vertical-line"></div>
+          <div>
+            <span>Energy</span>
+            <span>8 calories</span>
+          </div>
+        </div>
+      </div>
+      <div class="data">
+        <!-- Ingredients to prepare chosen coffee -->
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>14–18 grams espresso coffee beanshot or almost boiling water</li>
+          <li>espresso machine</li>
+          <li>scale</li>
+          <li>grinder</li>
+          <li>tamper</li>
+        </ul>
+      </div>
+      <div class="data">
+        <!-- How to make chosen coffee -->
+        <h3>Method:</h3>
+        <ul>
+          <li>
+            Measure out your beans for a double shot. Grind them really fine.
+            Tamp the beans, then put the portafilter into its spot on the
+            machine. Make the espresso. Heat up the water to 160-170 degrees
+            Fahrenheit. Pour the espresso into the hot water, mix 1 part
+            espresso to 2 parts water.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Video how to make chosen coffee -->
+    <div class="video">
+      <h2>Wach now: How to make Perfect Americano</h2>
+      <iframe
+        width="1280"
+        height="720"
+        src="https://www.youtube.com/embed/5aDqNwMVEyc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <footer>
+      <span>Weronika Koziol &copy; 2021</span>
+    </footer>
+    <script src="../../javascript/menu.js"></script>
+  </body>
+</html>

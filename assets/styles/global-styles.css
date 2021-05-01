@@ -1,0 +1,114 @@
+/* Global styles with header, footer and reseting default styles */
+
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Set up rem = 10px */
+  font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+body {
+  max-width: 100rem;
+  margin: 0;
+  padding: 0;
+  /* Set up rem = 10px */
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: url('../images/background/background.jpg') repeat;
+  background-size: contain;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+header button {
+  height: 5rem;
+  width: 5rem;
+}
+
+header img {
+  height: 5rem;
+  width: 5rem;
+}
+
+footer {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  background-image: url('../images/background/coffee-beans-background.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+}
+
+#categories {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+/* Styling for bigger screens, which minimum width is 1000px */
+@media only screen and (min-width: 100rem) {
+  header button {
+    display: none;
+  }
+
+  header {
+    width: 100rem;
+  }
+
+  #categories {
+    position: inherit;
+    display: flex;
+  }
+}

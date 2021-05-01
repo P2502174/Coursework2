@@ -1,0 +1,49 @@
+/* Styling for main page */
+
+body {
+  height: 100vh;
+}
+
+.main-wrapper {
+  padding-top: 10rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-wrapper span {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-button {
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  background-color: #914909;
+  transition: all 0.2s;
+  border: 1px solid #000;
+}
+.main-button:hover {
+  background-color: inherit;
+}
+
+footer {
+  position: inherit;
+}
+
+@media only screen and (min-width: 100rem) {
+  body {
+    width: 100rem;
+  }
+
+  .main-wrapper {
+    width: 100rem;
+  }
+
+  footer {
+    width: 100rem;
+  }
+}

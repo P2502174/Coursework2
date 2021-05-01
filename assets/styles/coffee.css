@@ -1,0 +1,139 @@
+/* Styling for chosen coffee */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100rem;
+}
+
+.title-wrapper {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.espresso {
+  background-color: #3b1e1a;
+}
+
+.mocha {
+  background-color: #8b673c;
+}
+
+.latte {
+  background-color: #a03c1e;
+}
+
+.cappucino {
+  background-color: #9a5e1c;
+}
+
+.americano {
+  background-color: #2f454d;
+}
+
+.iced {
+  background-color: #7f9da8;
+}
+
+.autumn {
+  background-color: #8c354b;
+}
+
+.christmas {
+  background-color: #3a675c;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100vw;
+}
+
+.info {
+  padding: 1.5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info span {
+  font-size: 2rem;
+}
+
+.vertical-line {
+  border-left: 1px solid #fff;
+  height: 5rem;
+}
+
+.data {
+  margin: 5rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.data h3 {
+  font-size: 2rem;
+}
+
+.data ul {
+  padding: 3rem;
+}
+
+.data li {
+  padding: 0.2rem;
+  font-size: 1.8rem;
+}
+
+.video {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.video h2 {
+  margin-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+.video iframe {
+  height: 30rem;
+  width: 90%;
+}
+
+@media only screen and (min-width: 100rem) {
+  .title-wrapper {
+    max-width: 100rem;
+  }
+
+  .info {
+    max-width: 100rem;
+  }
+
+  .image-wrapper img {
+    max-width: 100rem;
+  }
+
+  footer {
+    max-width: 100rem;  
+  }
+}
