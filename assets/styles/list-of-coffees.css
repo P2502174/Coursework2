@@ -4,6 +4,8 @@ body {
   min-height: 100vh;
   position: relative;
   max-width: 100rem;
+  background: url('../images/background/background.jpg') repeat;
+  background-size: contain;
 }
 
 .coffee-wrapper {

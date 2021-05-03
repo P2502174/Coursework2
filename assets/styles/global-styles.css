@@ -27,8 +27,8 @@ body {
   font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  background: url('../images/background/background.jpg') repeat;
-  background-size: contain;
+  background: url('../images/background/background.jpg') no-repeat;
+  background-size: cover;
 }
 
 header {
